@@ -6,7 +6,7 @@
 
     <groupId>cn.naturemix</groupId>
     <artifactId>naturemix-framework</artifactId>
-    <version>1.0.5</version>
+    <version>1.1.0</version>
 
     <name>naturemix</name>
     <description>naturemix is a lightweight Java Web Framework and reusable components.</description>

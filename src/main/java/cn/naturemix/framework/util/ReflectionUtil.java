@@ -30,6 +30,10 @@ public final class ReflectionUtil {
         return instance;
     }
 
+    public static Object newInstance(String className){
+        return newInstance(ClassUtil.loadClass(className));
+    }
+
     /**
      * 调用方法
      */

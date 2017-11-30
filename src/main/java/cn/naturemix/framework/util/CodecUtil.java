@@ -3,6 +3,7 @@ package cn.naturemix.framework.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.net.URLDecoder;
 import java.net.URLEncoder;
@@ -44,5 +45,11 @@ public final class CodecUtil {
         return target;
     }
 
+    /**
+     * MD5加密
+     */
+    public static String md5(String source){
+        return DigestUtils.md5Hex(source);
+    }
 
 }
